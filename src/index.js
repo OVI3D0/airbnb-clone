@@ -1,11 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
+import Header from './components/header';
+import Hero from './components/hero';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    Hello world
+    <Header />
+    <Hero />
   </React.StrictMode>
 );
 
