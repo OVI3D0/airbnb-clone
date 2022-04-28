@@ -1,0 +1,17 @@
+.card {
+    max-width: 20rem;
+}
+
+.card-btn {
+    width: 30%;
+    font-size: 14px;
+    position: absolute;
+}
+
+.fa-star {
+    color: #FE395C;
+}
+
+.review-grey {
+    color: #918E9B;
+}

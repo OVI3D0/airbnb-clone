@@ -1,4 +1,5 @@
 import '../styles/header.css';
+import '../styles/styles.css';
 
 const Header = () => {
     return (

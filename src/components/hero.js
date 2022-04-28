@@ -8,6 +8,7 @@ import col42 from "../images/col4-2.png";
 import col51 from "../images/col5-1.png";
 import col52 from "../images/col5-2.png";
 import '../styles/hero.css';
+import '../styles/styles.css';
 
 const Hero = () => {
     return (
