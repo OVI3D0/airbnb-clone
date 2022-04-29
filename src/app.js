@@ -1,20 +1,25 @@
 import Card from './components/card';
 import Header from './components/header';
 import Hero from './components/hero';
+import data from './data';
 
 const App = () => {
+    const cardElements = data.map(card => {
+        return <Card
+            key={`${card.id}`}
+            img={card.coverImg}
+            rating={card.stats.rating}
+            reviewCount={card.stats.reviewCount}
+            location={card.location}
+            title={card.title}
+            price={card.price}
+        />
+    })
     return (
     <>
         <Header />
         <Hero />
-        <Card
-        img = "zaferes.png"
-        rating="5.0"
-        reviewCount={6}
-        country="USA"
-        title="Life Lessons with Katie Zaferes"
-        price={136}
-        />
+        {cardElements}
     </>
     )
 
