@@ -3,7 +3,7 @@ import '../styles/card.css'
 const Card = (props) => {
     return (
         <>
-            <div className="card">
+            <div className="card mx-5">
                 <button className="btn btn-light card-btn ms-2 mt-2" style={{display: props.setup ? "block" : "none"}}>{props.btn}</button>
                 <img src={`/images/${props.img}`} alt="" className="rounded"/>
                 <p className="pt-1"><i className="fa-solid fa-star"></i>({props.rating})<p className="review-grey d-inline ps-1">{props.reviewCount} - {props.location}</p></p>

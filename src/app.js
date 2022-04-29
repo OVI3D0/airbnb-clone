@@ -19,7 +19,9 @@ const App = () => {
     <>
         <Header />
         <Hero />
-        {cardElements}
+        <div className='row d-flex justify-content-around'>
+            {cardElements}
+        </div>
     </>
     )
 
