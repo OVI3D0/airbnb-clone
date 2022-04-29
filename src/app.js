@@ -7,7 +7,7 @@ const App = () => {
     const cardElements = data.map(card => {
         return <Card
             key={`${card.id}`}
-            card={card}
+            {...card}
         />
     })
     return (
